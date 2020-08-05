@@ -1,0 +1,35 @@
+{
+  "name": "jwt-auth-rev",
+  "version": "1.0.0",
+  "description": "Node.js Demo for JWT Authentication ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lajawanti/node-jwt-auth-rev.git"
+  },
+  "keywords": [
+    "Node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "mysql"
+  ],
+  "author": "Lajawanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lajawanti/node-jwt-auth-rev/issues"
+  },
+  "homepage": "https://github.com/lajawanti/node-jwt-auth-rev#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  }
+}
